@@ -80,7 +80,7 @@ def h2d(h):
 
 def d2h(d):
     """Convert degrees into hours."""
-    return d * (24.0 / 360.0)
+    return d * (12.0 / 360.0)
 
 
 def arcs2d(arcs):
